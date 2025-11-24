@@ -1,0 +1,15 @@
+{
+  "seller_ntn": "9999999-9",
+  "buyer_ntn": "",
+  "invoice_date": "2025-09-10",
+  "currency": "USD",
+  "line_items": [
+    {
+      "sku": "FAB-LINEN",
+      "qty": 5,
+      "unit_price": 15.0,
+      "tax_rate": null,
+      "description": "Linen fabric roll"
+    }
+  ]
+}

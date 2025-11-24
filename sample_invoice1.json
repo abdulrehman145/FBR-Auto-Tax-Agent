@@ -1,0 +1,22 @@
+{
+  "seller_ntn": "1234567-8",
+  "buyer_ntn": "7654321-0",
+  "invoice_date": "2025-09-14",
+  "currency": "PKR",
+  "line_items": [
+    {
+      "sku": "FAB-SILKCOT",
+      "qty": 10,
+      "unit_price": 2500.0,
+      "tax_rate": 0.18,
+      "description": "SilkCot fabric"
+    },
+    {
+      "sku": "BTN-STD",
+      "qty": 50,
+      "unit_price": 20.0,
+      "tax_rate": 0.18,
+      "description": "Standard buttons"
+    }
+  ]
+}

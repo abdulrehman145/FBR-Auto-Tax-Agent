@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "seller_ntn": {
+      "type": "string"
+    },
+    "buyer_ntn": {
+      "type": "string"
+    },
+    "invoice_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "subtotal": {
+      "type": "number"
+    },
+    "tax": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "run_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "seller_ntn",
+    "buyer_ntn",
+    "invoice_date",
+    "currency",
+    "lines",
+    "subtotal",
+    "tax",
+    "total",
+    "run_id"
+  ]
+}

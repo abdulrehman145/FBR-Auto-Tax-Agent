@@ -1,0 +1,12 @@
+{
+  "require_ids": true,
+  "min_items": 1,
+  "min_unit_price": 0.0,
+  "default_tax_rate": 0.18,
+  "rounding": "half_up",
+  "accepted_status_values": [
+    "submitted",
+    "accepted",
+    "rejected"
+  ]
+}
