@@ -1,0 +1,23 @@
+def new_state():
+    return {
+        "run_id": "",
+        "doc_id": None,
+        "invoice_id": None,
+        "customer_id": None,
+        "timestamps": {},
+        "seller_ntn": None,
+        "buyer_ntn": None,
+        "invoice_date": None,
+        "currency": "PKR",
+        "line_items": [],
+        "subtotal": 0,
+        "tax_amount": 0,
+        "grand_total": 0,
+        "approval_required": True,
+        "approval_status": "pending",
+        "fbr_submission_id": None,
+        "fbr_status": None,
+        "errors": [],
+        "logs": [],
+        "context": {}
+    }
