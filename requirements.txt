@@ -1,0 +1,29 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# LangChain & LangGraph
+langchain>=0.0.340
+langgraph>=0.0.15
+langchain-core>=0.1.0
+
+# Database & persistence
+sqlite3
+
+# Utilities
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pydantic-settings>=2.0.0
+
+# Development & testing
+pytest>=7.4.0
+httpx>=0.25.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+mypy>=1.0.0
+
+# Optional: for enhanced JSON handling
+ujson>=5.8.0
+
+# Optional: for environment variables
+python-dotenv>=1.0.0
