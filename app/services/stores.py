@@ -1,0 +1,3 @@
+STORAGE = {}
+FBR = {}
+DOCS = {}
